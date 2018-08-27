@@ -17,7 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .body {
-	padding: 0% 5%;
+	margin-top: 3%;
+	padding: 0% 3%;
 }
 
 .remove-extra-space {
@@ -40,25 +41,36 @@ h1, h2, h3, h4, h5, h6 {
 
 .sections-navbar {
 	background-color: var(--bg-color);
-	color: #fff;
+	color: #aaa;
 	padding-left: 5%;
 	box-shadow: 0px 8px 6px -7px #555;
 	font-weight: bold;
 	text-align: center;
-	z-index: 1;
 	position: sticky;
 	top: 0;
-	margin-bottom: 3%;
+	z-index: 10;
 }
+
 .sections-navbar .section-tab {
 	padding: 1% 0%;
+	min-width: 100px;
 	transition: all 0.3s ease 0s;
 }
 
-.sections-navbar .section-tab:hover {
+.sections-navbar .section-tab:hover:not(.active-section-tab) {
+	color: #fff;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.sections-navbar {
+		padding-left: 0;
+	}
+}
+
+.active-section-tab {
 	background-color: #ccc;
 	color: #000;
-	cursor: pointer;
 }
 
 .footer {

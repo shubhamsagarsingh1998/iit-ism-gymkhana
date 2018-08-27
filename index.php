@@ -2,17 +2,7 @@
 <html>
 	<head>
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
-
-		<link rel="stylesheet" href="assets/styles/bootstrap.min.css">
-
-		<link rel="stylesheet" href="assets/styles/main.css">
-
-		<link rel="shortcut icon" type="image/x-icon" href="assets/images/ismlogo.png" />
+		<?php include('components/links.php'); ?>
 
 		<title>Gymkhana, IIT ISM Dhanbad</title>
 
@@ -20,15 +10,84 @@
 	<body>
 
 		<?php include('components/header.php'); ?>
-		<?php include('pages/home.php'); ?>
+
+		<?php include("components/carousel.php"); ?>
+
+		<div class="body">
+			<h2>Students Gymkhana, IIT (ISM) DHANBAD</h2>
+			<div class="row remove-extra-space">
+				<div class="col-md-8 remove-extra-space">
+					<div>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Libero volutpat sed cras ornare arcu dui vivamus. Facilisis mauris sit amet massa.
+						Facilisis volutpat est velit egestas dui id ornare arcu odio.
+						Vulputate sapien nec sagittis aliquam malesuada bibendum. Odio
+						aenean sed adipiscing diam donec. Egestas fringilla phasellus
+						faucibus scelerisque. Nec dui nunc mattis enim ut tellus. Amet
+						massa vitae tortor condimentum lacinia quis. Nulla facilisi nullam
+						vehicula ipsum a arcu cursus. At auctor urna nunc id cursus.
+						Est placerat in egestas erat imperdiet sed. Blandit turpis cursus
+						in hac habitasse platea dictumst quisque sagittis. Bibendum enim
+						facilisis gravida neque convallis a cras semper. Sapien eget mi
+						proin sed libero. In mollis nunc sed id semper. Ut consequat semper
+						viverra nam libero justo laoreet sit. Adipiscing at in tellus integer
+						feugiat scelerisque varius.
+					</div>
+				</div>
+				<div class="col-md-4 remove-extra-space">
+					<div>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Libero volutpat sed cras ornare arcu dui vivamus. Facilisis mauris sit amet massa.
+						Facilisis volutpat est velit egestas dui id ornare arcu odio.
+						Vulputate sapien nec sagittis aliquam malesuada bibendum. Odio
+						aenean sed adipiscing diam donec. Egestas fringilla phasellus
+						faucibus scelerisque. Nec dui nunc mattis enim ut tellus. Amet
+					</div>
+				</div>
+			</div>
+			<h2>Students Gymkhana, IIT (ISM) DHANBAD</h2>
+			<div class="row remove-extra-space">
+				<div class="col-md-2 remove-extra-space">
+					<img src="assets/images/example2.jpeg" class="img-fluid" />
+				</div>
+				<div class="col-md-6 remove-extra-space">
+					<div>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Libero volutpat sed cras ornare arcu dui vivamus. Facilisis mauris sit amet massa.
+						Facilisis volutpat est velit egestas dui id ornare arcu odio.
+						Vulputate sapien nec sagittis aliquam malesuada bibendum. Odio
+						aenean sed adipiscing diam donec. Egestas fringilla phasellus
+						faucibus scelerisque. Nec dui nunc mattis enim ut tellus. Amet
+						massa vitae tortor condimentum lacinia quis. Nulla facilisi nullam
+						vehicula ipsum a arcu cursus. At auctor urna nunc id cursus.
+						Est placerat in egestas erat imperdiet sed. Blandit turpis cursus
+						in hac habitasse platea dictumst quisque sagittis. Bibendum enim
+						facilisis gravida neque convallis a cras semper. Sapien eget mi
+						proin sed libero. In mollis nunc sed id semper. Ut consequat semper
+						viverra nam libero justo laoreet sit. Adipiscing at in tellus integer
+						feugiat scelerisque varius.
+					</div>
+				</div>
+				<div class="col-md-4 remove-extra-space">
+					<div>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Libero volutpat sed cras ornare arcu dui vivamus. Facilisis mauris sit amet massa.
+						Facilisis volutpat est velit egestas dui id ornare arcu odio.
+						Vulputate sapien nec sagittis aliquam malesuada bibendum. Odio
+						aenean sed adipiscing diam donec. Egestas fringilla phasellus
+						faucibus scelerisque. Nec dui nunc mattis enim ut tellus. Amet
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<?php include('components/footer.php'); ?>
 
-		<script src="assets/scripts/jquery-3.3.1.slim.min.js"></script>
-		<script src="assets/scripts/popper.min.js"></script>
-		<script src="assets/scripts/bootstrap.min.js"></script>
-		<script src="assets/scripts/fontawesome-all.js"></script>
-
-		<script src="assets/scripts/main.js"></script>
+		<?php include('components/scripts.php'); ?>
 
 	</body>
 </html>
