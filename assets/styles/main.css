@@ -155,3 +155,47 @@ ul li {
 .achievements-card ul.content {
 	padding-top: 5%;
 }
+
+.gallery section {
+	margin-top: 5%;
+}
+
+.gallery section .thumb {
+	margin: 10px;
+}
+
+.gallery section .view-all {
+	text-align: right;
+	margin-top: 1%;
+}
+
+.office section {
+	margin-top: 5%;
+	text-align: center;
+	padding: 2%;
+}
+
+.person-card img {
+	border: 5px solid #fff;
+	box-shadow: 8px 8px 6px -8px #555;
+}
+
+.person-card .details {
+	margin-top: 10px;
+}
+
+.person-card .details .rank {
+	font-weight: bold;
+}
+
+.person-card .details .name {
+	font-size: 20px;
+}
+
+.body.contact {
+	padding: 0 7%;
+}
+
+.feedback-form {
+	padding: 3%;
+}

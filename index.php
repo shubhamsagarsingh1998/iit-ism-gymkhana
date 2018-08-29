@@ -89,10 +89,17 @@
 										<a id="newsletters" class="nav-link"><h6>Newsletters</h6></a>
 									</li>
 								</ul>
-								<ul class="content">
+								<ul id="awards-content" class="content">
 									<?php for($i=1; $i<=3; $i++){ ?>
 										<li>
 											<i class="far fa-arrow-alt-circle-right"></i> &nbsp; Lorem ipsum dolor sit amet,
+										</li>
+									<?php } ?>
+								</ul>
+								<ul id="newsletters-content" class="content" style="display: none;">
+									<?php for($i=1; $i<=3; $i++){ ?>
+										<li>
+											<i class="far fa-arrow-alt-circle-right"></i> &nbsp; ipsum dolor sit amet,
 										</li>
 									<?php } ?>
 								</ul>

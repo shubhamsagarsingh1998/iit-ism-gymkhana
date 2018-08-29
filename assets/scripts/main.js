@@ -19,11 +19,17 @@ $(document).ready(function(){
 		$("#awards").removeClass("active");
 		$("#newsletters").removeClass("active");
 		$("#awards").addClass("active");
+
+		$("#newsletters-content").css("display", "none");
+		$("#awards-content").css("display", "block");
 	});
 
 	$("#newsletters").click(function(){
 		$("#awards").removeClass("active");
 		$("#newsletters").removeClass("active");
 		$("#newsletters").addClass("active");
+
+		$("#awards-content").css("display", "none");
+		$("#newsletters-content").css("display", "block");
 	});
 });
