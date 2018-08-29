@@ -14,4 +14,16 @@ $(document).ready(function(){
 			}
 		}
 	});
+
+	$("#awards").click(function(){
+		$("#awards").removeClass("active");
+		$("#newsletters").removeClass("active");
+		$("#awards").addClass("active");
+	});
+
+	$("#newsletters").click(function(){
+		$("#awards").removeClass("active");
+		$("#newsletters").removeClass("active");
+		$("#newsletters").addClass("active");
+	});
 });
