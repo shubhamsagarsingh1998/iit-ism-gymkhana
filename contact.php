@@ -18,13 +18,14 @@
 						<div class="inner-body">
 							<h2 class="heading">Contact us</h2>
 							<div class="contact-details">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Libero volutpat sed cras ornare arcu dui vivamus. Facilisis mauris sit amet massa.
-								Facilisis volutpat est velit egestas dui id ornare arcu odio.
-								Vulputate sapien nec sagittis aliquam malesuada bibendum. Odio
-								aenean sed adipiscing diam donec. Egestas fringilla phasellus
-								faucibus scelerisque. Nec dui nunc mattis enim ut tellus. Amet
+								<div class="address single-detail">
+									<div style="font-weight: bold;">Address of office of Gymkhana:</div>
+									<div>Mahanadi Hall of Residence,</div>
+									<div>Argul Campus IIT Bhubaneswar,</div>
+									<div>Odisha, 752050</div>
+								</div>
+								<div class="email single-detail">Email ID: office.gymkhana@iitbbs.ac.in</div>
+								<div class="phone single-detail">Phone No.: 06742114053</div>
 							</div>
 						</div>
 					</div>
