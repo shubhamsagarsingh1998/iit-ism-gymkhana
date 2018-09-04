@@ -47,12 +47,19 @@
 									<div class="name">
 										<a href="<?php echo $row['fb_profile']; ?>"><?php echo $row['name']; ?></a>
 									</div>
-									<div class="phone">
-										<a href="tel:<?php echo $row['phone']; ?>"><i class="fas fa-phone"></i> <?php echo $row['phone']; ?></a>
-									</div>
-									<div class="email">
-										<a href="mailto:<?php echo $row['email']; ?>"><i class="far fa-envelope"></i> <?php echo $row['email']; ?></a>
-									</div>
+
+									<?php if($row['phone'] != null){ ?>
+										<div class="phone">
+											<a href="tel:<?php echo $row['phone']; ?>"><i class="fas fa-phone"></i> <?php echo $row['phone']; ?></a>
+										</div>
+									<?php } ?>
+
+									<?php if($row['email'] != null){ ?>
+										<div class="email">
+											<a href="mailto:<?php echo $row['email']; ?>"><i class="far fa-envelope"></i> <?php echo $row['email']; ?></a>
+										</div>
+									<?php } ?>
+
 								</div>
 							</div>
 						</div>
@@ -81,12 +88,19 @@
 									<div class="name">
 										<a href="<?php echo $row['fb_profile']; ?>"><?php echo $row['name']; ?></a>
 									</div>
-									<div class="phone">
-										<a href="tel:<?php echo $row['phone']; ?>"><i class="fas fa-phone"></i> <?php echo $row['phone']; ?></a>
-									</div>
-									<div class="email">
-										<a href="mailto:<?php echo $row['email']; ?>"><i class="far fa-envelope"></i> <?php echo $row['email']; ?></a>
-									</div>
+
+									<?php if($row['phone'] != null){ ?>
+										<div class="phone">
+											<a href="tel:<?php echo $row['phone']; ?>"><i class="fas fa-phone"></i> <?php echo $row['phone']; ?></a>
+										</div>
+									<?php } ?>
+
+									<?php if($row['email'] != null){ ?>
+										<div class="email">
+											<a href="mailto:<?php echo $row['email']; ?>"><i class="far fa-envelope"></i> <?php echo $row['email']; ?></a>
+										</div>
+									<?php } ?>
+
 								</div>
 							</div>
 						</div>
@@ -115,12 +129,19 @@
 									<div class="name">
 										<a href="<?php echo $row['fb_profile']; ?>"><?php echo $row['name']; ?></a>
 									</div>
-									<div class="phone">
-										<a href="tel:<?php echo $row['phone']; ?>"><i class="fas fa-phone"></i> <?php echo $row['phone']; ?></a>
-									</div>
-									<div class="email">
-										<a href="mailto:<?php echo $row['email']; ?>"><i class="far fa-envelope"></i> <?php echo $row['email']; ?></a>
-									</div>
+
+									<?php if($row['phone'] != null){ ?>
+										<div class="phone">
+											<a href="tel:<?php echo $row['phone']; ?>"><i class="fas fa-phone"></i> <?php echo $row['phone']; ?></a>
+										</div>
+									<?php } ?>
+
+									<?php if($row['email'] != null){ ?>
+										<div class="email">
+											<a href="mailto:<?php echo $row['email']; ?>"><i class="far fa-envelope"></i> <?php echo $row['email']; ?></a>
+										</div>
+									<?php } ?>
+
 								</div>
 							</div>
 						</div>
