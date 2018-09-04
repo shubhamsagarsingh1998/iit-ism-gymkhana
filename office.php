@@ -1,3 +1,19 @@
+<?php
+
+	try{
+		require_once('config/dbc.php');
+		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	}
+	catch(Exception $e){
+		$error = $e->getMessage();
+	}
+
+	if(isset($error)){
+		echo $error;
+	}
+
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -13,41 +29,104 @@
 
 		<div class="body office">
 			<section class="single-section" style="background-color: #eee">
-				<h4 class="heading">STUDENTS' GYMKHANA OFFICE BEARERS</h4>
+				<h4 class="heading">ADMINISTRATIVE BODY</h4>
 				<div class="row remove-extra-space">
-					<div class="col-md-4 remove-extra-space">
-						<div class="inner-body person-card">
-							<img src="assets/images/example2.jpeg" class="img-fluid" />
-							<div class="details">
-								<div class="rank">President</div>
-								<div class="name">Dr. Sankarsan Mohapatro</div>
-								<div class="phone"><i class="fas fa-phone"></i> +91 674 2306 248</div>
-								<div class="email"><i class="far fa-envelope"></i> president.sg@iitbbs.ac.in</div>
+
+					<?php
+						$sql = "SELECT * FROM `office` WHERE `post` LIKE '%Secretary' OR `post` LIKE '%Nominee' ORDER BY `post`";
+						$result = $db->query($sql);
+
+						while($row = $result->fetch(PDO::FETCH_ASSOC)){
+					?>
+
+						<div class="col-md-4 remove-extra-space">
+							<div class="inner-body person-card">
+								<img src="assets/images/avatar/<?php echo $row['avatar']; ?>" class="img-fluid" />
+								<div class="details">
+									<div class="post"><?php echo $row['post']; ?></div>
+									<div class="name">
+										<a href="<?php echo $row['fb_profile']; ?>"><?php echo $row['name']; ?></a>
+									</div>
+									<div class="phone">
+										<a href="tel:<?php echo $row['phone']; ?>"><i class="fas fa-phone"></i> <?php echo $row['phone']; ?></a>
+									</div>
+									<div class="email">
+										<a href="mailto:<?php echo $row['email']; ?>"><i class="far fa-envelope"></i> <?php echo $row['email']; ?></a>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 remove-extra-space">
-						<div class="inner-body person-card">
-							<img src="assets/images/example2.jpeg" class="img-fluid" />
-							<div class="details">
-								<div class="rank">President</div>
-								<div class="name">Dr. Sankarsan Mohapatro</div>
-								<div class="phone"><i class="fas fa-phone"></i> +91 674 2306 248</div>
-								<div class="email"><i class="far fa-envelope"></i> president.sg@iitbbs.ac.in</div>
+
+					<?php } ?>
+
+				</div>
+			</section>
+
+			<section class="single-section">
+				<h4 class="heading">MEDIA TEAM</h4>
+				<div class="row remove-extra-space">
+
+					<?php
+						$sql = "SELECT * FROM `office` WHERE `post` LIKE '%Head' ORDER BY `name`";
+						$result = $db->query($sql);
+
+						while($row = $result->fetch(PDO::FETCH_ASSOC)){
+					?>
+
+						<div class="col-md-4 remove-extra-space">
+							<div class="inner-body person-card">
+								<img src="assets/images/avatar/<?php echo $row['avatar']; ?>" class="img-fluid" />
+								<div class="details">
+									<div class="post"><?php echo $row['post']; ?></div>
+									<div class="name">
+										<a href="<?php echo $row['fb_profile']; ?>"><?php echo $row['name']; ?></a>
+									</div>
+									<div class="phone">
+										<a href="tel:<?php echo $row['phone']; ?>"><i class="fas fa-phone"></i> <?php echo $row['phone']; ?></a>
+									</div>
+									<div class="email">
+										<a href="mailto:<?php echo $row['email']; ?>"><i class="far fa-envelope"></i> <?php echo $row['email']; ?></a>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 remove-extra-space">
-						<div class="inner-body person-card">
-							<img src="assets/images/example2.jpeg" class="img-fluid" />
-							<div class="details">
-								<div class="rank">President</div>
-								<div class="name">Dr. Sankarsan Mohapatro</div>
-								<div class="phone"><i class="fas fa-phone"></i> +91 674 2306 248</div>
-								<div class="email"><i class="far fa-envelope"></i> president.sg@iitbbs.ac.in</div>
+
+					<?php } ?>
+
+				</div>
+			</section>
+
+			<section class="single-section" style="background-color: #eee">
+				<h4 class="heading">SECRETARIES OF INDIVIDUAL SPORTS</h4>
+				<div class="row remove-extra-space">
+
+					<?php
+						$sql = "SELECT * FROM `office` WHERE `post` LIKE 'Secretary%' ORDER BY `post`";
+						$result = $db->query($sql);
+
+						while($row = $result->fetch(PDO::FETCH_ASSOC)){
+					?>
+
+						<div class="col-md-4 remove-extra-space">
+							<div class="inner-body person-card">
+								<img src="assets/images/avatar/<?php echo $row['avatar']; ?>" class="img-fluid" />
+								<div class="details">
+									<div class="post"><?php echo $row['post']; ?></div>
+									<div class="name">
+										<a href="<?php echo $row['fb_profile']; ?>"><?php echo $row['name']; ?></a>
+									</div>
+									<div class="phone">
+										<a href="tel:<?php echo $row['phone']; ?>"><i class="fas fa-phone"></i> <?php echo $row['phone']; ?></a>
+									</div>
+									<div class="email">
+										<a href="mailto:<?php echo $row['email']; ?>"><i class="far fa-envelope"></i> <?php echo $row['email']; ?></a>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
+
+					<?php } ?>
+
 				</div>
 			</section>
 		</div>

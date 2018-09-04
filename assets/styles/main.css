@@ -175,8 +175,13 @@ ul li {
 	padding: 2%;
 }
 
+.person-card {
+	padding: 10px;
+}
+
 .person-card img {
-	border: 5px solid #fff;
+	max-height: 180px;
+	/* border: 5px solid #fff; */
 	box-shadow: 8px 8px 6px -8px #555;
 }
 
@@ -184,12 +189,26 @@ ul li {
 	margin-top: 10px;
 }
 
-.person-card .details .rank {
+.person-card a {
+	color: inherit;
+}
+
+.person-card .details .post {
 	font-weight: bold;
 }
 
 .person-card .details .name {
 	font-size: 20px;
+}
+
+.person-card .details .phone {
+	font-style: italic;
+	font-size: 12px;
+}
+
+.person-card .details .email {
+	font-style: italic;
+	font-size: 12px;
 }
 
 .body.contact {
