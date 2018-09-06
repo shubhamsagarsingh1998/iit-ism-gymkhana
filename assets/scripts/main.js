@@ -52,6 +52,8 @@ $(document).ready(function(){
 					feedback: isFeedbackValid,
 				},
 				success: function(data){
+					$('.feedback-form p').removeClass('alert-success');
+					$('.feedback-form p').removeClass('alert-danger');
 					if(data==1){
 						$('.feedback-form p').addClass('alert-success');
 						$('.feedback-form p').text('Feedback submitted successfully');
