@@ -6,11 +6,14 @@
 
 <div class="row remove-extra-space header">
 	<div class="col-md-2 remove-extra-space logo">
-		<img src="assets/images/ismlogo.png" class="img-fluid" />
+		<img src="assets/images/ismlogo.png" width="110" class="img-fluid" />
 	</div>
 	<div class="col-md-8 remove-extra-space">
-		<h1>STUDENTS' GYMKHANA</h1>
+		<h1>SPORTS CLUB</h1>
 		<h4>Indian Institute of Technology (Indian School of Mines) - Dhanbad</h4>
+	</div>
+	<div class="col-md-2 remove-extra-space logo">
+		<img src="assets/images/speclogo.png" width="110" class="img-fluid" />
 	</div>
 </div>
 <div class="sections-navbar">

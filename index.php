@@ -15,7 +15,7 @@
 
 		<div class="body">
 			<section class="single-section">
-				<h2 class="heading">Students Gymkhana, IIT (ISM) DHANBAD</h2>
+				<h2 class="heading">Sports Club, IIT (ISM) DHANBAD</h2>
 				<div class="row remove-extra-space">
 					<div class="col-md-8 remove-extra-space">
 						<div class="inner-body about-card">

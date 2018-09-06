@@ -10,4 +10,4 @@
 
 <link rel="stylesheet" href="assets/styles/main.css">
 
-<link rel="shortcut icon" type="image/x-icon" href="assets/images/ismlogo.png" />
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
