@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 04, 2018 at 09:13 AM
+-- Generation Time: Sep 04, 2018 at 05:37 PM
 -- Server version: 10.1.28-MariaDB
 -- PHP Version: 7.1.11
 
@@ -64,7 +64,7 @@ INSERT INTO `office` (`id`, `name`, `email`, `post`, `phone`, `fb_profile`, `ava
 (6, 'Kushagra Tripathi', 'kushagra.17JE002715@ee.ism.ac.in', 'Secretary (Lawn Tennis)', '9837015331', '', 'Kushagra_Tripathi.jpg'),
 (7, 'Keshav Goyal', 'keshav.15je001681@am.ism.ac.in', 'Secretary (Badminton - Boys)', '8929485810', 'https://www.facebook.com/keshavthemathematicslover', 'Keshav_Goyal.jpg'),
 (8, 'Shantanu Kumar', 'shantanu.16je001900@am.ism.ac.in', 'Secretary (Karate - Boys)', '9973526846', 'https://www.facebook.com/devrajshantanu', 'Shantanu_Devraj.jpg'),
-(9, 'Marada Sahiti', 'sahiti.17JE003022@am.iitism.ac', 'Badminton Girls coordinator', '7485803038', '', 'Sahiti_Marada.JPG'),
+(9, 'Marada Sahiti', 'sahiti.17JE003022@am.iitism.ac', 'Secretary (Badminton - Girls)', '7485803038', '', 'Sahiti_Marada.JPG'),
 (10, 'Reha Panigrahi', 'reha97.17MS000414@ac.iitism.ac.in', 'Secretary (Volleyball - Girls)', '7485803066', '', 'Reha_Panigrahi.jpg'),
 (11, 'Ayush Somani', 'ayush.16JE001852@am.ism.ac.in', 'Media Head', '7023484950', 'https://www.facebook.com/ayushsomani001', 'Ayush_Somani.jpeg'),
 (12, 'Pogula Shiva Kumar', 'shivakumarpogula.15JE001569@am.ism.ac.in', 'Secretary (Chess Club)', '8500667449', 'https://www.facebook.com/shivakumar.pogula', 'Pogula_Shiva_Kumar.jpg'),

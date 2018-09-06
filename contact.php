@@ -41,24 +41,27 @@
 					<div class="col-md-8 remove-extra-space">
 						<h2 class="heading">FEEDBACK</h2>
 						<div class="inner-body feedback-form">
+
+							<p class="alert"></p>
+
 							<form>
 								<div class="form-group">
 									<label for="name">Name</label>
-									<input type="text" class="form-control" id="name" placeholder="Enter your Name">
+									<input type="text" class="form-control" name="name" placeholder="Enter your Name">
 								</div>
 								<div class="form-group">
 									<label for="contact">Contact Number</label>
-									<input type="text" class="form-control" id="contact" placeholder="Enter your Contact Number">
+									<input type="text" class="form-control" name="contact" placeholder="Enter your Contact Number">
 								</div>
 								<div class="form-group">
 									<label for="email">E-mail Address</label>
-									<input type="email" class="form-control" id="email" placeholder="Enter your E-mail Address">
+									<input type="email" class="form-control" name="email" placeholder="Enter your E-mail Address">
 								</div>
 								<div class="form-group">
 									<label for="feedback">Feedback</label>
-									<textarea class="form-control" id="feedback" rows="3">Enter your Feedback</textarea>
+									<textarea class="form-control" id="feedback" name="feedback" rows="3" placeholder="Enter your Feedback"></textarea>
 								</div>
-								<button type="submit" class="btn btn-primary">Submit</button>
+								<button class="btn btn-outline-primary">SUBMIT</button>
 							</form>
 						</div>
 					</div>

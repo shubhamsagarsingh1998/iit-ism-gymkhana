@@ -222,3 +222,11 @@ ul li {
 .feedback-form {
 	padding: 3%;
 }
+
+.feedback-form p, .feedback-form input, .feedback-form textarea, .feedback-form button {
+	border-radius: 0
+}
+
+.feedback-form button {
+	font-weight: bold;
+}
