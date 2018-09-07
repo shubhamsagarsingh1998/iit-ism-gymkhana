@@ -4,7 +4,7 @@
 
 		<?php include('components/links.php'); ?>
 
-		<title>Gymkhana, IIT ISM Dhanbad</title>
+		<title>SPEC, IIT ISM Dhanbad</title>
 
 	</head>
 	<body>
@@ -15,25 +15,11 @@
 
 		<div class="body">
 			<section class="single-section">
-				<h2 class="heading">Sports Club, IIT (ISM) DHANBAD</h2>
+				<h2 class="heading">ABOUT Sports Club, IIT (ISM) DHANBAD</h2>
 				<div class="row remove-extra-space">
 					<div class="col-md-8 remove-extra-space">
 						<div class="inner-body about-card">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							Libero volutpat sed cras ornare arcu dui vivamus. Facilisis mauris sit amet massa.
-							Facilisis volutpat est velit egestas dui id ornare arcu odio.
-							Vulputate sapien nec sagittis aliquam malesuada bibendum. Odio
-							aenean sed adipiscing diam donec. Egestas fringilla phasellus
-							faucibus scelerisque. Nec dui nunc mattis enim ut tellus. Amet
-							massa vitae tortor condimentum lacinia quis. Nulla facilisi nullam
-							vehicula ipsum a arcu cursus. At auctor urna nunc id cursus.
-							Est placerat in egestas erat imperdiet sed. Blandit turpis cursus
-							in hac habitasse platea dictumst quisque sagittis. Bibendum enim
-							facilisis gravida neque convallis a cras semper. Sapien eget mi
-							proin sed libero. In mollis nunc sed id semper. Ut consequat semper
-							viverra nam libero justo laoreet sit. Adipiscing at in tellus integer
-							feugiat scelerisque varius.
+							The professional world needs human force skilled in not only IQ but also EQ. The professional spheres require people to learn how to be work as a part of a team, how to be with the people who might not be complimentary to your own self but working with each other to realise each other's potentials to the maximum, how to take orders and give orders when time be,  how to with your team to end of the line. Looks like a lot to do doesn't it? Well, we have got a simple solution for you join a sports club. Welcome to our family of IIT ISM's Sports clubs!😀
 						</div>
 					</div>
 					<div class="col-md-4 remove-extra-space">
@@ -61,21 +47,7 @@
 					</div>
 					<div class="col-md-6 remove-extra-space">
 						<div class="inner-body about-card">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							Libero volutpat sed cras ornare arcu dui vivamus. Facilisis mauris sit amet massa.
-							Facilisis volutpat est velit egestas dui id ornare arcu odio.
-							Vulputate sapien nec sagittis aliquam malesuada bibendum. Odio
-							aenean sed adipiscing diam donec. Egestas fringilla phasellus
-							faucibus scelerisque. Nec dui nunc mattis enim ut tellus. Amet
-							massa vitae tortor condimentum lacinia quis. Nulla facilisi nullam
-							vehicula ipsum a arcu cursus. At auctor urna nunc id cursus.
-							Est placerat in egestas erat imperdiet sed. Blandit turpis cursus
-							in hac habitasse platea dictumst quisque sagittis. Bibendum enim
-							facilisis gravida neque convallis a cras semper. Sapien eget mi
-							proin sed libero. In mollis nunc sed id semper. Ut consequat semper
-							viverra nam libero justo laoreet sit. Adipiscing at in tellus integer
-							feugiat scelerisque varius.
+							COMING UP
 						</div>
 					</div>
 					<div class="col-md-4 remove-extra-space">
