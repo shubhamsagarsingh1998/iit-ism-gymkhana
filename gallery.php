@@ -4,7 +4,7 @@
 
 		<?php include('components/links.php'); ?>
 
-		<title>Gymkhana, IIT ISM Dhanbad</title>
+		<title>SPEC, IIT ISM Dhanbad</title>
 
 	</head>
 	<body>
