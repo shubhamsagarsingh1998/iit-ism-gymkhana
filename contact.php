@@ -4,7 +4,7 @@
 
 		<?php include('components/links.php'); ?>
 
-		<title>Gymkhana, IIT ISM Dhanbad</title>
+		<title>SPEC, IIT ISM Dhanbad</title>
 
 	</head>
 	<body>
@@ -19,13 +19,13 @@
 							<h2 class="heading">Contact us</h2>
 							<div class="contact-details">
 								<div class="address single-detail">
-									<div style="font-weight: bold;">Address of office of Gymkhana:</div>
-									<div>Mahanadi Hall of Residence,</div>
-									<div>Argul Campus IIT Bhubaneswar,</div>
-									<div>Odisha, 752050</div>
+									<div style="font-weight: bold;">ADDRESS</div>
+									<div>STUDENT ACTIVITY CENTRE ,</div>
+									<div>IIT ISM DHANBAD,</div>
+									<div>JHARKHAND, 826004</div>
 								</div>
-								<div class="email single-detail">Email ID: office.gymkhana@iitbbs.ac.in</div>
-								<div class="phone single-detail">Phone No.: 06742114053</div>
+								<div class="email single-detail">Email ID: TO BE UPDATED</div>
+								<div class="phone single-detail">Phone No.: TO BE UPDATED</div>
 							</div>
 						</div>
 					</div>
